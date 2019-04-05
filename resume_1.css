@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul,ol,dl{
+    list-style: none;
+}
+section{
+    margin: 20px 0;
+}
+.clearfix:after {
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility: hidden;
+}
+.clearfix { *zoom:1; }
+strong span{
+    font-weight: normal;
+}
+strong{
+    display: inline-block;
+    margin-right: 20px;
+}
+.basic-information ul li{
+    float: left;
+}
+.cantact ul li{
+    float: left;
+}
+div{
+    margin-top: 10px;
+}
